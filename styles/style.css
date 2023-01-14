@@ -3,7 +3,7 @@ body {
 }
 
 * {
-    margin: 0 auto;
+    /* margin: 0 auto; */
 }
 
 /* Header section */
@@ -14,11 +14,13 @@ header {
 .header-content {
     width: 1560px;
     padding: 50px 0;
+    margin: 0 auto;
 }
 
 .nav-menu {
     display: flex;
-    /* justify-content: space-evenly; */
+    align-items: center;
+    justify-content: space-between;
 }
 
 .logo {
@@ -30,8 +32,7 @@ header {
 
 .nav-item ul {
     display: flex;
-    gap: 15px;
-    /* justify-content: space-between; */
+    gap: 55px;
 }
 
 .nav-item ul li {
@@ -40,7 +41,7 @@ header {
 
 /* Banner section */
 .banner-section {
-    margin-top: 115px;
+    margin-top: 75px;
     text-align: center;
 }
 
@@ -50,7 +51,7 @@ header {
 
 .banner-paragraph {
     color: #727272;
-    padding: 40px 250px;
+    padding: 40px 0;
 }
 
 .banner-section img {
@@ -64,19 +65,19 @@ header {
     border: none;
     padding: 21px 30px;
     border-radius: 10px;
-    margin-bottom: 40px;
+    margin-bottom: 60px;
 }
 
 /* Feature section */
 .feature-section {
     width: 1560px;
+    margin: 0 auto;
 }
 
 .feature-content {
     display: flex;
     gap: 75px;
     align-items: center;
-    /* justify-content: space-around; */
     margin-top: 85px;
 }
 
@@ -93,6 +94,7 @@ header {
     color: #727272;
     font-size: 45px;
     padding-right: 225px;
+    margin: 0;
 }
 
 .feature-color-one {
@@ -107,6 +109,7 @@ header {
     color: #727272;
     padding: 25px 0 30px;
     line-height: 28px;
+    margin: 0;
 }
 
 /* Features list */
@@ -117,7 +120,7 @@ header {
 }
 
 .feature-items {
-    margin-top: 80px;
+
 }
 
 .feature-items>.feature-title {
@@ -139,7 +142,6 @@ header {
 }
 
 .description-paragraph {
-    line-height: 30px;
     margin-top: 10px;
     color: #727272;
     white-space: nowrap;
@@ -148,25 +150,20 @@ header {
 
 }
 .features-images img{
-    /* width: 100%; */
 
 }
-
-.experience-btn {
-    text-align: center;
-    margin-top: -65px;
-}
-
 .btn-feature {
     color: #fff;
     border: none;
     background-color: #FF900E;
     padding: 45px;
     border-radius: 8px;
+    margin: -250px 0 0 -65px;
 }
 
 .btn-feature h2 {
     font-size: 65px;
+    margin: 0;
 }
 
 .btn-feature span {
@@ -175,6 +172,7 @@ header {
 /* Some facts section */
 .facts-section{
     width: 1560px;
+    margin: 0 auto;
     margin-top: 150px;
 }
 .facts-title{
@@ -189,26 +187,30 @@ header {
 .facts-item{
     display: flex;
     margin-top: 100px;
+    justify-content: space-between;
 }
 .facts-list{
     text-align: center;
     border: 1px solid #FF900E;
     border-radius: 8px;
-    padding: 35px;
+    padding: 45px 35px;
 }
 .facts-list h2{
     font-size: 45px;
     color: #424242;
+    margin: 0;
 }
 .facts-list p{
     font-size: 20px;
     color: #424242;
+    margin: 0;
 }
 
 /* Sponsor section */
 .our-sponsor{
     width: 1560px;
     text-align: center;
+    margin: 0 auto;
     margin-top: 100px;
 }
 .our-sponsor h2{
@@ -223,6 +225,7 @@ header {
 .sponsor{
     display: flex;
     margin-top: 50px;
+    justify-content: space-between;
 }
 
 /* Footer section */
@@ -232,6 +235,7 @@ footer{
     padding: 40px 0;
     text-align: center;
     color: #424242;
+    margin: 0 auto;
     margin-top: 125px;
     margin-bottom: 150px;
 }
